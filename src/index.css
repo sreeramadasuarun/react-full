@@ -1,13 +1,163 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  text-align: center;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.back {
+  margin: -22px 0px;
+  position: absolute;
+  height: 200%;
+  width: 100%;
+  background-color: rgb(28, 28, 39);
+  z-index: -32;
+}
+
+.back_tag {
+  color: rgb(255, 255, 255)
+}
+
+
+.movielist {
+  color: rgb(192, 188, 188);
+}
+
+
+/* 
+.cdata {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  list-style: none;
+  text-align: center;
+
+}
+
+
+
+.cdata li img {
+  width: 300px;
+  max-height: 250px;
+}
+
+
+@media screen and (min-width:768px) {
+  .cdata {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin: 2rem auto;
+    align-items: center;
+  }
+}
+
+.formm input {
+  align-items: center;
+  margin: 3rem auto;
+  text-align: center;
+  display: flex;
+
+}
+ */
+
+nav a.active {
+  font-weight: bolder;
+  text-decoration: none;
+  background-color: rgb(191, 220, 23);
+  color: rgb(31, 30, 30);
+}
+
+nav {
+  display: block;
+  gap: 1rem;
+  background-color: blue;
+  overflow: hidden;
+}
+
+nav a {
+  padding: 22px;
+  color: white;
+  text-decoration: none;
+  gap: 2rem;
+  display: inline-block;
+}
+
+
+.card {
+  background-color: rgb(165, 200, 244);
+  padding: 40px;
+  color: rgb(6, 6, 79);
+}
+
+.cardcon {
+  display: grid;
+  grid-template-columns: 2fr;
+
+}
+
+.allcard a {
+  text-decoration: none;
+
+}
+
+
+@media screen and (min-width:992px) {
+  .cardcon {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+
+  }
+}
+
+
+.movie-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  margin: 2rem;
+}
+
+.movie {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 22px;
+  color: rgb(83, 83, 83);
+  border-radius: 17px;
+  font-size: 14px;
+}
+
+.movie-container img {
+  width: 350px;
+}
+
+.movie-container a {
+  text-decoration: none;
+
+}
+
+.movie-container p {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.movie:hover {
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.movielist img {
+  width: 450px;
+}
+
+.tails img {
+  border: 2px solid rgb(139, 137, 137);
+  border-radius: 4px;
+  padding: 5px;
+  width: 750px;
+  height: 300px;
 }

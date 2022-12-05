@@ -1,0 +1,62 @@
+.video {
+    width: 70vw;
+    height: 70vh;
+    position: relative;
+    margin: 22px 203px;
+}
+
+.controlsContainer {
+    position: absolute;
+    left: 45%;
+    top: 55%;
+}
+
+.controls {
+    text-align: center;
+}
+
+.controls img {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin: 10px;
+    cursor: pointer;
+
+
+
+}
+
+
+
+/* time */
+
+
+
+.timecontrols {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 94%;
+    left: 12%;
+    /* cursor: pointer; */
+}
+
+.time_progressbarContainer {
+    background-color: gray;
+    border-radius: 15px;
+    width: 65vw;
+    height: 5px;
+    position: relative;
+    margin: 0 20px;
+}
+
+.time_progressBar {
+    border-radius: 15px;
+    background-color: indigo;
+    height: 100%;
+}
+
+.controlsTime {
+    color: rgb(255, 0, 0);
+}
