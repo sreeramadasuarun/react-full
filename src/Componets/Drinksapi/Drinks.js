@@ -74,7 +74,7 @@ const Drinks = () => {
                             return (
                                 <NavLink to={`/Drinks/${idDrink}`} key={idDrink}>
                                     <div>
-                                        <img style={{ width: "220px", height: "200px" }} src={strDrinkThumb} />
+                                        <img style={{ width: "220px", height: "200px" }} src={strDrinkThumb} alt="no" />
                                     </div>
                                     <div className='text'>
                                         <h2>Drink Name: {strDrink}</h2>

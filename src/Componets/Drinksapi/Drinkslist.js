@@ -24,7 +24,7 @@ const Drinkslist = () => {
     const { tailid } = useParams([])
 
     const Drinkslistdata = drinkdata.find((each) => {
-        return each.idDrink == tailid
+        return each.idDrink === tailid
     })
     console.log(tailid);
     console.log(Drinkslistdata);
@@ -41,7 +41,7 @@ const Drinkslist = () => {
             <br />
             <h3>strCategory: {Drinkslistdata ? Drinkslistdata.strCategory : "Loading..."}</h3>
             <br />
-            <img src={Drinkslistdata ? Drinkslistdata.strDrinkThumb : "Loading..."} />
+            <img src={Drinkslistdata ? Drinkslistdata.strDrinkThumb : "Loading..."} alt="no" />
 
 
 
