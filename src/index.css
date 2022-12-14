@@ -25,6 +25,19 @@
   color: rgb(192, 188, 188);
 }
 
+.box_success {
+  justify-content: center;
+  display: flex;
+}
+
+
+
+.box_success button {
+  margin: 2rem;
+  margin-top: 20rem;
+  position: absolute;
+  cursor: pointer;
+}
 
 /* 
 .cdata {
@@ -61,7 +74,7 @@
 
 }
  */
-
+/* 
 nav a.active {
   font-weight: bolder;
   text-decoration: none;
@@ -82,7 +95,7 @@ nav a {
   text-decoration: none;
   gap: 2rem;
   display: inline-block;
-}
+} */
 
 
 .card {

@@ -7,7 +7,7 @@ import backward from "/Users/Arun Sreeramadasu/Desktop/react-full/src/assets/bac
 import play from "/Users/Arun Sreeramadasu/Desktop/react-full/src/assets/play.png"
 import forward from "/Users/Arun Sreeramadasu/Desktop/react-full/src/assets/forward.png"
 import pause from "/Users/Arun Sreeramadasu/Desktop/react-full/src/assets/pause.svg"
-import KGF from "/Users/Arun Sreeramadasu/Desktop/react-full/src/assets/KGF3.mp4"
+import KGF from "/Users/Arun Sreeramadasu/Desktop/react-full/src/assets/KGF2.mp4"
 
 
 function Player() {

@@ -1,4 +1,4 @@
-.video {
+/* .video {
     width: 70vw;
     height: 70vh;
     position: relative;
@@ -28,8 +28,6 @@
 
 
 
-/* time */
-
 
 
 .timecontrols {
@@ -39,8 +37,9 @@
     position: absolute;
     top: 94%;
     left: 12%;
-    /* cursor: pointer; */
+    cursor: pointer;
 }
+
 
 .time_progressbarContainer {
     background-color: gray;
@@ -59,4 +58,4 @@
 
 .controlsTime {
     color: rgb(255, 0, 0);
-}
+} */

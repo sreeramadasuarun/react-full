@@ -21,6 +21,7 @@ import Login from './login/Login';
 import Logout from './login/Logout';
 import { Authprovider } from './login/auth';
 import PrivateRoute from "./login/PrivateRoute"
+import LogSucces from './login/LogSucces';
 
 
 const Lazyabout = React.lazy(() => import("./Componets/About"))
@@ -32,7 +33,8 @@ const App = () => {
     return (
         <Authprovider>
             <NavLink />
-            <br />
+            <div className='container'></div>
+
 
 
             <Routes>
@@ -69,6 +71,10 @@ const App = () => {
 
                 <Route path="/Login" element={<Login />} />
                 <Route path="/Logout" element={<Logout />} />
+
+                <Route path="/LogSucces" element={<LogSucces />} />
+
+
             </Routes >
 
         </Authprovider >

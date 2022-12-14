@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import KFG from "../assets/KGF.mp4"
-
+// import KFG from "../assets/KGF.mp4"
+import Wave from '../login/wave'
 const Home = () => {
 
     const navigate = useNavigate()
@@ -11,11 +11,11 @@ const Home = () => {
         <>
             <h1>Home</h1>
 
-            <video width="60%" controls>
+            {/* <video width="60%" controls>
                 <source src={KFG} type="video/mp4" />
-            </video>
+            </video> */}
             {/* <img src={tree} /> */}
-
+            <Wave />
 
             <br />
             <button onClick={() => navigate("./Success")} >submit form</button>
