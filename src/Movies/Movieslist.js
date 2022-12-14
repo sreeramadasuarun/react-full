@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import Moviesdata from './Moviesdata'
-import Player from "../player/Player"
+import Player from "../player/Player.js"
 
 const Movieslist = () => {
 

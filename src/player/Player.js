@@ -3,24 +3,20 @@ import React from "react";
 import { useState, useRef } from "react";
 
 
-import backward from "/Users/Arun Sreeramadasu/Desktop/react-full/src/assets/backward.png"
-import play from "/Users/Arun Sreeramadasu/Desktop/react-full/src/assets/play.png"
-import forward from "/Users/Arun Sreeramadasu/Desktop/react-full/src/assets/forward.png"
-import pause from "/Users/Arun Sreeramadasu/Desktop/react-full/src/assets/pause.svg"
-import KGF from "/Users/Arun Sreeramadasu/Desktop/react-full/src/assets/KGF2.mp4"
+import backward from "../assets/backward.png"
+import play from "../assets/play.png"
+import forward from "../assets/forward.png"
+import pause from "../assets/pause.svg"
+import KGF from "../assets/KGF2.mp4"
 
 
 function Player() {
-
-
 
     const videoRef = useRef(null);
     const [playing, setPlaying] = useState(false);
     const [videoTime, setVideoTime] = useState(0);
     const [currentTime, setCurrentTime] = useState(0);
     const [progress, setProgress] = useState(0);
-
-
 
     const videoHandler = (control) => {
         if (control === "play") {
