@@ -8,7 +8,7 @@ const Movieslist = () => {
     const { Movieid } = useParams()
 
 
-    const movielistdata = Moviesdata.find((each) => each.id == Movieid)
+    const movielistdata = Moviesdata.find((each) => each.id === Movieid)
 
     console.log(Movieid);
     console.log(movielistdata);

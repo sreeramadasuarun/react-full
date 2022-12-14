@@ -2,14 +2,14 @@ import React, { useState } from 'react'
 // import ReactDOM from "react-dom";
 import * as Components from "./Components";
 import "../login/signupcss.css"
-import { useNavigate } from 'react-router-dom'
+// import { useNavigate } from 'react-router-dom'
 import { useAuth } from '../login/auth'
 
 
 
 const Login = () => {
     const { login } = useAuth()
-    const navigate = useNavigate()
+    // const navigate = useNavigate()
 
     const [signIn, toggle] = React.useState(true);
 

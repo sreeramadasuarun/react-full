@@ -1,4 +1,4 @@
-export default [
+const moviedata = [
     {
         id: "1",
         title: "KGF 2",
@@ -78,3 +78,5 @@ export default [
     },
 
 ]
+
+export default moviedata
